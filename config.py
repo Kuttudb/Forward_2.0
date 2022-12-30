@@ -2,8 +2,8 @@ import os
 import logging
 class Config:
     
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", "8281168"))
+    API_HASH = os.environ.get("API_HASH", "445ff67ec34858448ac184c7479ce917")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "Forward_BOT") 
     OWNER_ID = os.environ.get("OWNER_ID", "")
